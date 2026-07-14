@@ -174,3 +174,45 @@ The administrator dashboard shall display:
 - Active doctors
 - Registered patients
 - Cancelled appointments
+- ---
+
+# 7. Non-Functional Requirements
+
+| ID | Requirement |
+|----|-------------|
+| NFR-01 | System availability shall be 99.9%. |
+| NFR-02 | Login response time shall be less than 2 seconds. |
+| NFR-03 | Appointment booking shall complete within 5 seconds. |
+| NFR-04 | User passwords shall be encrypted. |
+| NFR-05 | Only authorized users can access the system. |
+| NFR-06 | System shall support Chrome, Edge, Safari and Firefox. |
+| NFR-07 | Daily database backup shall be performed. |
+| NFR-08 | The application shall support at least 500 concurrent users. |
+
+---
+
+# 8. Business Rules
+
+- A patient cannot book two appointments at the same time.
+- Doctors cannot be booked during unavailable hours.
+- Cancelled appointment slots become available immediately.
+- Every appointment must have one patient and one doctor.
+- Only administrators can delete user accounts.
+- Appointment reminders shall be sent 24 hours before the appointment.
+
+---
+
+# 9. Assumptions
+
+- Internet connectivity is available.
+- Users possess valid login credentials.
+- Doctors update their availability regularly.
+
+---
+
+# 10. Dependencies
+
+- Patient database
+- Doctor database
+- Email/SMS notification service
+- Authentication service
