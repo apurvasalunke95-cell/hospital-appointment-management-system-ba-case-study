@@ -85,3 +85,92 @@ Patients shall be able to cancel appointments before the scheduled time.
 ## FR-06: Reschedule Appointment
 
 Patients shall be able to select a new available date and time.
+---
+
+# 4. Doctor Module
+
+## FR-07: Doctor Login
+
+The system shall allow doctors to log in securely using their registered email address and password.
+
+---
+
+## FR-08: View Appointment Schedule
+
+The doctor shall be able to:
+
+- View today's appointments
+- View upcoming appointments
+- View patient details
+- Filter appointments by date
+
+---
+
+## FR-09: Manage Availability
+
+The doctor shall be able to:
+
+- Add available dates
+- Remove unavailable dates
+- Block vacation days
+- Update working hours
+
+---
+
+# 5. Receptionist Module
+
+## FR-10: Manage Patients
+
+The receptionist shall be able to:
+
+- Register new patients
+- Update patient details
+- Search patient records
+
+---
+
+## FR-11: Manage Appointments
+
+The receptionist shall be able to:
+
+- Book appointments
+- Cancel appointments
+- Reschedule appointments
+- Check doctor availability
+
+---
+
+# 6. Administrator Module
+
+## FR-12: User Management
+
+The administrator shall be able to:
+
+- Create users
+- Edit users
+- Delete users
+- Reset passwords
+
+---
+
+## FR-13: Reports
+
+The administrator shall be able to generate reports such as:
+
+- Daily appointments
+- Monthly appointments
+- Doctor utilization
+- Appointment cancellations
+- Patient registration statistics
+
+---
+
+## FR-14: Dashboard
+
+The administrator dashboard shall display:
+
+- Total appointments
+- Today's appointments
+- Active doctors
+- Registered patients
+- Cancelled appointments
